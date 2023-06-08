@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.container .text {
+  position: relative;
+  max-width: 40rem;
+}
+.container .text h2 {
+  color: #000000;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500px;
+}
+
+.container .text p {
+  color: #333;
+}
+.container .text .btn {
+  font: inherit;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.container .image {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 7rem;
+  margin-left: 1rem;
+}
+
